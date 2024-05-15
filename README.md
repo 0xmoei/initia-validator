@@ -6,7 +6,7 @@
 
 
 
-# System Requirement
+## System Requirement
 ![image2](https://github.com/0xmoei/initia-validator/assets/90371338/f7aa09a4-8dfb-4c6c-b028-9d90da0ec163)
 
 ## Install Dependecies
