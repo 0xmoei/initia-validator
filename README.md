@@ -148,7 +148,7 @@ sed -i -e "s/^pruning-keep-recent *=.*/pruning-keep-recent = \"100\"/" $HOME/.in
 sed -i -e "s/^pruning-interval *=.*/pruning-interval = \"50\"/" $HOME/.initia/config/app.toml
 ```
 
-## Upload a Snapshot of the node sync files
+## Download Snapshot of a synced node files
 ```shell
 sudo systemctl stop initiad
 ```
