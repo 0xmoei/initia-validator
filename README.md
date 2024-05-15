@@ -2,7 +2,7 @@
 
 # Official Links
  * [Moei Twitter](https://twitter.com/0xMoei)
- * [AO discord](https://discord.gg/aAnB5SJJaa)
+ * [Initia discord](https://discord.gg/initia)
 
 
 
