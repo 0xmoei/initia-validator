@@ -10,7 +10,7 @@
 - First task of the Pre-Phase is Setting up a Validator node
 - You must also complete other tasks to get points
 Validator Program Info: https://initia-xyz.notion.site/The-Initiation-Validator-Tasks-6d88ab0034644473907435662f9285b3
-![Screenshot 2024-05-15 232927](https://github.com/0xmoei/initia-validator/assets/90371338/dbfff272-2b2f-4433-91ea-0e6c5ad46fa1)
+![img](https://github.com/0xmoei/initia-validator/assets/90371338/dbfff272-2b2f-4433-91ea-0e6c5ad46fa1)
 
 
 # Setting up a Validator
