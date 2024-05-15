@@ -238,7 +238,7 @@ initiad tx mstaking validator $(initiad keys show $WALLET --bech val -a)
 
 ## Unjail Validator
 ```shell
-initiad tx slashing unjail --from wallet --fees=0.025uinit -y
+initiad tx slashing unjail --from $WALLET --fees=0.025uinit -y
 ```
 
 ## Restart Node
