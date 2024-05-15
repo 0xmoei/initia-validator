@@ -231,6 +231,7 @@ initiad tx mstaking create-validator \
   --gas-prices 0.15uinit \
   -y
 ```
+- Save the txhash
 
 ## Delegate Tokens to your Validator
 ```shell
