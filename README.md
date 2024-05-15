@@ -1,4 +1,4 @@
-![image](https://github.com/0xmoei/initia-validator/assets/90371338/68b08315-bd9e-4573-8b3f-01797f8e65c3)
+![image copy 2](https://github.com/0xmoei/initia-validator/assets/90371338/5c8fb423-e310-45d4-ab27-8f29710b39ef)
 
 # Official Links
  * [Moei Twitter](https://twitter.com/0xMoei)
