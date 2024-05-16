@@ -187,7 +187,7 @@ sudo journalctl -u initiad -f -o cat
 - True = Node is NOT synced
 - False = Node is synced
 ```shell
-initiad status | jq -r .sync_info
+initiad  | jq -r .sync_info
 ```
 !Only Continue the steps if you are getting FALSE !
 
@@ -240,14 +240,30 @@ initiad tx mstaking delegate $(initiad keys show $WALLET --bech val -a)  1000000
 
 # Useful Commands
 
+## Check inActive Validators (search your node name)
+```shell
+initiad q mstaking validators -o json --limit=1000 \
+| jq '.validators[] | select(.status=="BOND_STATUS_UNBONDED")' \
+| jq -r '.voting_power + " - " + .description.moniker' \
+| sort -gr | nl
+```
+
+## Check Active Valdiators
+```shell
+initiad q mstaking validators -o json --limit=1000 \
+| jq '.validators[] | select(.status=="BOND_STATUS_BONDED")' \
+| jq -r '.voting_power + " - " + .description.moniker' \
+| sort -gr | nl
+```
+
 ## Validator Status
 ```shell
 initiad tx mstaking validator $(initiad keys show $WALLET --bech val -a)
 ```
 
-## Unjail Validator
+## Check Logs
 ```shell
-initiad tx slashing unjail --from $WALLET --fees=0.025uinit -y
+sudo journalctl -u initiad -f -o cat
 ```
 
 ## Restart Node
@@ -260,25 +276,9 @@ sudo systemctl restart initiad
 sudo systemctl stop initiad
 ```
 
-## Check Logs
+## Unjail Validator
 ```shell
-sudo journalctl -u initiad -f -o cat
-```
-
-## Check Active Valdiators
-```shell
-initiad q mstaking validators -o json --limit=1000 \
-| jq '.validators[] | select(.status=="BOND_STATUS_BONDED")' \
-| jq -r '.voting_power + " - " + .description.moniker' \
-| sort -gr | nl
-```
-
-## Check inActive Valdiators
-```shell
-initiad q mstaking validators -o json --limit=1000 \
-| jq '.validators[] | select(.status=="BOND_STATUS_UNBONDED")' \
-| jq -r '.voting_power + " - " + .description.moniker' \
-| sort -gr | nl
+initiad tx slashing unjail --from $WALLET --fees=0.025uinit -y
 ```
 
 ## Delete Node Files
