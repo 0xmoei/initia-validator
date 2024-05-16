@@ -258,7 +258,7 @@ initiad q mstaking validators -o json --limit=1000 \
 
 ## Validator Status
 ```shell
-initiad tx mstaking validator $(initiad keys show $WALLET --bech val -a)
+initiad q mstaking validator $(initiad keys show $WALLET --bech val -a)
 ```
 
 ## Check Logs
