@@ -187,7 +187,7 @@ sudo journalctl -u initiad -f -o cat
 - True = Node is NOT synced
 - False = Node is synced
 ```shell
-initiad  | jq -r .sync_info
+initiad status | jq
 ```
 !Only Continue the steps if you are getting FALSE !
 
