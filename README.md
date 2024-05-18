@@ -260,6 +260,8 @@ initiad q mstaking validators -o json --limit=1000 \
 ```shell
 initiad q mstaking validator $(initiad keys show $WALLET --bech val -a)
 ```
+### Search your validator in inactive set
+https://scan.testnet.initia.xyz/initiation-1/validators
 
 ## Check Logs
 ```shell
