@@ -2,8 +2,14 @@
 ```
 cd $HOME
 rm -rf slinky
+```
+```
 git clone https://github.com/skip-mev/slinky.git
+```
+```
 cd slinky
+```
+```
 git checkout v0.4.3
 ```
 ```
