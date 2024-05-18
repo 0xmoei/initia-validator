@@ -57,10 +57,6 @@ enabled = "true"
 oracle_address = "127.0.0.1:8080"
 client_timeout = "500ms"
 ```
-![img](https://github.com/0xmoei/initia-validator/assets/90371338/a0d264ad-2f40-4ebc-bc9f-0920246a83b8)
-
-![img](https://github.com/0xmoei/initia-validator/assets/90371338/d3e03408-011b-4580-9ddd-050c54bcfabd)
-
 ### Restart Initia SystemD
 ```
 sudo systemctl daemon-reload
@@ -68,3 +64,6 @@ sudo systemctl restart initiad
 sudo systemctl restart slinkyd
 sudo journalctl -u initiad -f --no-hostname -o cat
 ```
+![img](https://github.com/0xmoei/initia-validator/assets/90371338/a0d264ad-2f40-4ebc-bc9f-0920246a83b8)
+
+![img](https://github.com/0xmoei/initia-validator/assets/90371338/d3e03408-011b-4580-9ddd-050c54bcfabd)
