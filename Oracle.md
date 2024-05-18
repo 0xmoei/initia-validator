@@ -46,6 +46,7 @@ sudo systemctl restart slinkyd
 ```
 journalctl -fu slinkyd --no-hostname
 ```
+- Press CTRL+C
 ### Config app.toml
 ```
 nano /root/.initia/config/app.toml
