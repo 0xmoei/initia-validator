@@ -283,6 +283,22 @@ sudo systemctl stop initiad
 initiad tx slashing unjail --from $WALLET --fees=0.025uinit -y
 ```
 
+## Edit Validator
+```shell
+initiad tx mstaking edit-validator \
+--moniker "YOUR_MONIKER_NAME" \
+--identity "YOUR_KEYBASE_ID" \
+--details "YOUR_DETAILS" \
+--website "YOUR_WEBSITE_URL" \
+--chain-id initiation-1 \
+--commission-rate 0.05 \
+--from wallet \
+--gas-adjustment 1.4 \
+--gas auto \
+--gas-prices 0.15uinit \
+-y
+```
+
 ## Delete Node Files
 ```shell
 sudo systemctl stop initiad.service
