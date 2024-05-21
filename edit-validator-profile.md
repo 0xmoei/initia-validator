@@ -2,6 +2,7 @@
 
 ```console
 # you can edit your validator by replacing placeholders
+
 initiad tx mstaking edit-validator \
 --moniker "YOUR_MONIKER_NAME" \
 --identity "YOUR_KEYBASE_ID" \
