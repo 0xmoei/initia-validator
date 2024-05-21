@@ -1,3 +1,4 @@
+<h1 align="center"> HOW TO GET A PUBLIC RPC ENDPOINT ON YOUR VALIDATOR NODE to submit the form </h1>
 ```console
 # Fetch your IP and RPC port (It will print your RPC url)
 RPC="http://$(wget -qO- eth0.me)$(grep -A 3 "\[rpc\]" $HOME/.initia/config/config.toml | egrep -o ":[0-9]+")" && echo $RPC
