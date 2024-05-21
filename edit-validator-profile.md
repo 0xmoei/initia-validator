@@ -16,5 +16,5 @@ initiad tx mstaking edit-validator \
 --gas-prices 0.15uinit \
 -y
 ```
-> to change your validator profile picture you have to create a KEYBASE_ID with instructions in this link : https://medium.com/@AVIAONE/how-to-display-logo-and-moniker-on-blockchain-explorer-with-keybase-aviaone-1a89c4e9c11
-> you can leave the moniker unchanged
+- to change your validator profile picture you have to create a KEYBASE_ID with instructions in this link : https://medium.com/@AVIAONE/how-to-display-logo-and-moniker-on-blockchain-explorer-with-keybase-aviaone-1a89c4e9c11
+- you can leave the moniker unchanged
