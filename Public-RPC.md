@@ -1,5 +1,4 @@
 <h1 align="center"> HOW TO GET A PUBLIC RPC ENDPOINT ON YOUR VALIDATOR NODE to submit the form </h1>
-![image](https://github.com/0xmoei/initia-validator/assets/90371338/a577e160-f78b-4467-a204-09bb803ee79b)
 
 
 ```console
