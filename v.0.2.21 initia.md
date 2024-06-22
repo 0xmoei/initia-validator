@@ -1,0 +1,16 @@
+```
+cd $HOME/initia
+git fetch --all
+git checkout v0.2.21
+make install
+initiad version
+```
+```
+sudo mv $HOME/go/bin/initiad $(which initiad)
+initiad version
+```
+```
+sudo systemctl daemon-reload
+sudo systemctl restart initiad
+sudo journalctl -u initiad.service -f --no-hostname -o cat
+```
